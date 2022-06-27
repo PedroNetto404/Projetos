@@ -1,0 +1,208 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+/*             Header              */
+.cabecalho {
+    width: 100%;
+    background-color: blue;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    border-style: solid;
+    margin: 20px;
+}
+
+.cabecalho_esquerda {
+    margin-left: 0em;
+    display: flex;
+}
+.lista-esquerda {
+    margin-left: 2px;
+}
+
+.direita-icones {
+    margin-right: 50px;
+}
+
+.icone {
+    width: 30px;
+    margin: 0 10px 0 10px;
+}
+.item {
+    list-style: none;
+    display: inline-block;
+    margin-right: 2px;
+    margin-left: 2px;
+}
+.cabecalho_titulo {
+    color: white;
+}
+.cabecalho_centro {
+    
+}
+
+.icone-perfil{
+    border-radius: 150px;
+    width: 150px;
+}
+
+/* Main */
+
+.conteudo {
+    display: grid;
+    grid-template-columns: 30% 40% 30%; 
+    height: 100em;
+    margin: 10px;
+}
+
+.barra-esquerda {
+    margin: 10px;
+    height: 90em;
+    text-align: center;
+}
+
+
+.logo-bk {
+    width: 200px;
+    margin-top: 10px;
+}
+.infos-perfil {
+    text-align: left;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 10px;
+}
+.cps-logo {
+    width: 70px;
+    margin-right: 10px;
+}
+
+.interesses-lista-item {
+    display: flex;
+    align-items:center;
+    margin: 10px 6px 10px 0px;
+    padding: 1em;
+}
+
+.topicos {
+    margin-top: 2em;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+.topicos-lista {
+    text-align: left;
+}
+.interesses {
+    margin-top: 2em; 
+    border-style: solid;
+    border-radius: 10px;
+}
+.titulo-perfil {
+}
+
+.topicos-item {
+    list-style: none;
+}
+
+/*    Publicações            */ 
+
+.barra-central {
+    margin: 10px;
+    text-align: center;
+}
+.publicacao {
+    border-radius: 10px;
+    border-style: solid;
+    margin: 10px;
+}
+
+.publicacao-perfil{
+    
+    
+    display: flex;
+    justify-content: space-between;
+    
+}
+.pessoas {
+    width: 50px;
+    border-radius: 150px;
+}
+
+.publicacao {
+    padding: 1em;
+}
+
+.publicacao-perfil {
+}
+
+.img-public1 {
+    margin: 2px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.engajamento ul li {
+    margin-left: 20px;
+}
+
+.engajamento ul {
+    text-align: left;
+}
+
+.conteudo-publicacao h3, p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.publicacao-perfil img {
+    width: 150px;
+    margin: 0;
+    border-radius: 50%;
+}
+
+.dados-perfil {
+    text-align: left;
+    margin-left: 0;
+}
+
+.container {
+    border-radius: 10px;
+    border-style: solid;
+    margin: 10px;
+    padding: 20px;
+}
+
+.publicacao-perfil img {
+    border-radius: 50%;
+}
+
+.barra-direita {
+    text-align: center;
+}
+
+.lista-usuario {
+    border-radius: 10px;
+    border-style: solid;
+}
+
+.item-usuario {
+    margin: 15px;
+    padding: 0px;
+    border-style: solid;
+    list-style-type: none;
+}
+
+.rodape {
+    text-align: center;
+    background-color: gray;
+    height: 150px;
+    padding: 15px;
+}
