@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+/*             Header              */
+.cabecalho {
+    width: 100%;
+    background-color: blue;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.icone {
+    width: 30px;
+}
+.item {
+    list-style: none;
+    display: inline-block;
+    margin-left: 5em;
+}
+.cabecalho_titulo {
+    color: white;
+}
+.cabecalho_centro {
+    
+}
+
+.icone-perfil{
+    border-radius: 150px;
+    width: 150px;
+}
+
+/* Main */
+
+.conteudo {
+    display: grid;
+    grid-template-columns: 30% 60% 10%; 
+    height: 100em;
+    margin: 10px;
+}
+
+.barra-esquerda {
+    margin: 10px;
+    height: 90em;
+    text-align: center;
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+.barra-central {
+    background-color: green;
+    margin: 10px;
+}
+
+.barra-direita {
+    background-color: yellow;
+    margin: 10px;
+}
+
+.logo-bk {
+    width: 300px;
+    margin-top: 10px;
+}
+.infos-perfil {
+    text-align: left;
+    padding-left: 10px;
+}
+.cps-logo {
+    width: 70px;
+    margin-right: 10px;
+}
+
+.interesses-lista-item {
+    display: flex;
+    align-items:center;
+    border: 2px solid;
+    border-radius: 10px;
+    margin: 10px 6px 10px 0px;
+    padding: 1em;
+}
+
+.topicos {
+    margin-top: 2em;
+}
+.interesses {
+    margin-top: 2em;
+}
+.titulo-perfil {
+}
